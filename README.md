@@ -5,6 +5,15 @@ By Audrey Njiraini
 This is a web application that takes a user's birthday and calculates the day of the week they were born, and then depending on their gender outputs their Akan Name. 
 ## Setup/Installation Requirements
 * You can view the page at https://audreynjiraini.github.io/Akan-Name-Generator/
+## BDD
+
+### Input
+
+- The user is prompted to enter their date of birth and their gender.
+
+### Output
+
+- The user then receives a random name  representing their Akan name.
 ## Technologies Used
 <ul>
     <li>HTML</li>
