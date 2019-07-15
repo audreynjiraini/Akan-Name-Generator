@@ -1,0 +1,43 @@
+body {
+    font-family:Helvetica;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://pbs.twimg.com/media/D0_FNbRWsAA5of-.jpg);
+  }
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+  }
+  h1 {
+    color: red;
+    background-color: chartreuse;
+    font-style: italic;
+    font-weight: bold;
+  }
+  h2 {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    background-color: chartreuse;
+  } 
+  p {
+    font-size:larger;
+    font-weight: bold;
+  }
+  #p {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+  }
+  footer {
+    text-align: center;
+    color: white;
+  }
