@@ -10,23 +10,28 @@
 </head>
 <body>
     <div class="bgimage">
-        <h2 id="h2">Welcome to Akan names</h2>
+        <h2 id="h2">Akan name Generator</h2>
     <div class="overlay">
     <form action="">
-        <p id="p">Please input your birthday details below:</p>
+        <p id="p">Please input your details below:</p>
     <div class="form-group">
         <label for="century">Century:</label><br>    
-        <input type="number" name="century" id="century" placeholder=" Example 21 for 2019" min="18" max="20"><br>
-            <label for="year">Year:</label><br>
-            <input type="number" name="year" id="year" placeholder=" Example 19 for 2019" min="01" max="99"><br>
-            <label for="month">Month:</label><br>
-            <input type="number" name="month" id="month" placeholder=" Example 10 for October" min="1" max="31"><br>   
-            <label for="day">Day:</label><br>
-            <input type="number" name="day" id="day" placeholder=" Example 23 for " min="0" max="31"><br>
-            <label for="gender">Gender</label><br>
-            <input type="radio" name="gender" id="male" value="Male"><p id="ml">Male</p> 
-            <input type="radio" name="gender" id="female" value="Female"><p id="ml">Female</p>                
-            <input type="submit" value="Submit" onclick="checkDayOfTheWeek()">
+        <input type="number" name="century" id="century" placeholder=" Example 20 for 2001" min="19" max="20"><br>
+
+        <label for="year">Year:</label><br>
+        <input type="number" name="year" id="year" placeholder=" Example 01 for 2001" min="00" max="99"><br>
+
+        <label for="month">Month:</label><br>
+        <input type="number" name="month" id="month" placeholder=" Example 10 for October" min="1" max="12"><br>
+
+        <label for="day">Day:</label><br>
+        <input type="number" name="day" id="day" placeholder=" Example 23 for 23rd" min="0" max="31"><br>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="male" value="Male"><p id="ml">Male</p>
+        <input type="radio" name="gender" id="female" value="Female"><p id="ml">Female</p>
+
+        <input type="submit" value="Submit" onclick="checkDayOfTheWeek()">
     </div>  
     </form>
     </div>
