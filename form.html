@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-        <img src="Images/image1.jpg" alt="Background image">
+
 <head>
-    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fill me!</title>
 </head>
+
 <body>
-    <div class="bgimage">
-        <h2 id="h2">Akan name Generator</h2>
-    <div class="overlay">
-    <form action="">
-        <p id="p">Please input your details below:</p>
-    <div class="form-group">
-        <label for="century" class="headers">Century:</label><br>    
-        <input type="number" name="century" id="century" placeholder=" Example 20 for 2001" min="19" max="20"><br>
+    <div class="container">
+    <div class="jumbotron">
+    <h2 id="h2">Akan name Generator</h2>
+    <div>
+        <form action="">
+            <p id="p">Please input your details below:</p>
+            <div class="form-group">
+                <label for="century" class="headers">Century:</label><br>
+                <input type="number" name="century" id="century" placeholder=" Example 20 for 2001" min="19"
+                    max="20"><br>
 
-        <label for="year" class="headers">Year:</label><br>
-        <input type="number" name="year" id="year" placeholder=" Example 01 for 2001" min="00" max="99"><br>
+                <label for="year" class="headers">Year:</label><br>
+                <input type="number" name="year" id="year" placeholder=" Example 01 for 2001" min="00" max="99"><br>
 
-        <label for="month" class="headers">Month:</label><br>
-        <input type="number" name="month" id="month" placeholder=" Example 10 for October" min="1" max="12"><br>
+                <label for="month" class="headers">Month:</label><br>
+                <input type="number" name="month" id="month" placeholder=" Example 10 for October" min="1" max="12"><br>
 
-        <label for="day" class="headers">Day:</label><br>
-        <input type="number" name="day" id="day" placeholder=" Example 23 for 23rd" min="0" max="31"><br>
+                <label for="day" class="headers">Day:</label><br>
+                <input type="number" name="day" id="day" placeholder=" Example 23 for 23rd" min="0" max="31"><br>
 
-        <h3>Gender:</h3>
+                <h3>Gender:</h3>
 
-        <input type="radio" name="gender" id="male" value="Male"><p id="ml">Male &nbsp;<br>
-        <input type="radio" name="gender" id="female" value="Female"><p id="ml">Female &nbsp;<br>
+                <input type="radio" name="gender" id="male" value="Male">
+                <p id="ml">Male &nbsp;<br>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <p id="ml">Female &nbsp;<br>
 
-        <input type="submit" value="Submit" onclick="checkDayOfTheWeek()">
-    </div>  
-    </form>
+                        <input type="submit" value="Submit" onclick="checkDayOfTheWeek()">
+            </div>
+        </form>
     </div>
     </div>
+</div>
 </body>
 <script type="text/javascript" src="script.js"></script>
+
 </html>
